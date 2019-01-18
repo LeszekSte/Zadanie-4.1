@@ -18,13 +18,9 @@ public class Televisor {
         setSwitchOffOn(true);
     }
 
-    ;
-
     void turnOff() {
         setSwitchOffOn(false);
     }
-
-    ;
 
     public String showStatus() {
         String info;
@@ -33,7 +29,6 @@ public class Televisor {
         } else {
             info = "Wyłączony";
         }
-        ;
         return "Televisor {" + info +'}';
     }
 }
